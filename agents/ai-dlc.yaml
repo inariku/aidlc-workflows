@@ -1,0 +1,15 @@
+name: ai-dlc
+description: AI-Driven Development Life Cycle - Adaptive software development workflow that guides you through inception, construction, and operations phases.
+
+resources:
+  # Core workflow (always loaded as steering)
+  - type: context
+    source: file://./aidlc-rules/aws-aidlc-rules/core-workflow.md
+
+  # Rule details (indexed for efficient search)
+  - type: knowledgeBase
+    source: file://./aidlc-rules/aws-aidlc-rule-details
+    name: AI-DLC Rule Details
+    description: Detailed rules for each phase including common rules, inception, construction, and operations
+    indexType: best
+    autoUpdate: true

@@ -11,7 +11,11 @@ The AI model intelligently assesses what stages are needed based on:
 4. Risk and impact assessment
 
 ## MANDATORY: Rule Details Loading
-**CRITICAL**: When performing any phase, you MUST read and use relevant content from rule detail files in `.kiro/aws-aidlc-rule-details/` or `.amazonq/aws-aidlc-rule-details/` directory.
+**CRITICAL**: When performing any phase, you MUST read and use relevant content from rule detail files.
+
+**Loading Method**:
+- **Steering mode**: Read from `.kiro/aws-aidlc-rule-details/` or `.amazonq/aws-aidlc-rule-details/` directory
+- **Knowledge Base mode**: Search the "AI-DLC Rule Details" knowledge base for the relevant file by name
 
 **Common Rules**: ALWAYS load common rules at workflow start:
 - Load `common/process-overview.md` for workflow overview

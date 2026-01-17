@@ -64,6 +64,39 @@ If you do not see the `aws-aidlc-rules` rules loaded, please check the directory
 
 ![AI-DLC Rules in Kiro CLI](./assets/images/kiro-cli-aidlc-rules-loaded.png?raw=true "AI-DLC Rules in Kiro CLI")
 
+### Kiro CLI (Knowledge Base Mode)
+
+For larger projects or when you want better token efficiency, you can use AI-DLC as a custom agent with Knowledge Base support. This mode indexes the rule details and loads them on-demand instead of including everything in context.
+
+Copy the custom agent configuration to your Kiro CLI agents directory:
+
+```bash
+# Global installation (available in all projects)
+mkdir -p ~/.kiro/agents
+cp ../aidlc-workflows/agents/ai-dlc.yaml ~/.kiro/agents/
+
+# Or project-specific installation
+mkdir -p .kiro/agents
+cp ../aidlc-workflows/agents/ai-dlc.yaml .kiro/agents/
+```
+
+Also copy the rule files to the expected location:
+
+```bash
+cp -R ../aidlc-workflows/aidlc-rules .kiro/
+```
+
+To use the AI-DLC agent:
+
+```bash
+kiro-cli --agent ai-dlc
+```
+
+Benefits of Knowledge Base mode:
+- Better token efficiency (rule details loaded on-demand)
+- Faster context loading for large rule sets
+- Auto-indexing keeps knowledge current
+
 ### Usage
 
 1. Start any software development project by stating your intent starting with the phrase "Using AI-DLC, ..." in the chat. 
