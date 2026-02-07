@@ -451,6 +451,7 @@ The Operations stage will eventually include:
 - **Transparent Planning**: Always show execution plan before starting
 - **User Control**: User can request stage inclusion/exclusion
 - **Progress Tracking**: Update aidlc-state.md with executed and skipped stages
+- **Execution Plan Tracking**: When completing ANY stage, update that stage's status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist). This is MANDATORY for every stage completion.
 - **Complete Audit Trail**: Log ALL user inputs and AI responses in audit.md with timestamps
   - **CRITICAL**: Capture user's COMPLETE RAW INPUT exactly as provided
   - **CRITICAL**: Never summarize or paraphrase user input in audit log
