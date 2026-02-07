@@ -117,3 +117,4 @@ Design detailed business logic for the unit, technology-agnostic and focused pur
 - Log approval in audit.md with timestamp
 - Record the user's approval response with timestamp
 - Mark Functional Design stage complete in aidlc-state.md
+- Update Functional Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`

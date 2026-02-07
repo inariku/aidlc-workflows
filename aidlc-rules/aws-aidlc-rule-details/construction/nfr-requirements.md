@@ -97,3 +97,4 @@ Determine non-functional requirements for the unit and make tech stack choices.
 - Log approval in audit.md with timestamp
 - Record the user's approval response with timestamp
 - Mark NFR Requirements stage complete in aidlc-state.md
+- Update NFR Requirements status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`

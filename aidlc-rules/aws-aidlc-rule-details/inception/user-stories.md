@@ -298,6 +298,7 @@ If the analysis in step 9 reveals ANY ambiguous answers, you MUST:
 
 ## Step 23: Update Progress
 - Mark User Stories stage complete in `aidlc-state.md`
+- Update User Stories status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
 - Update the "Current Status" section
 - Prepare for transition to next stage
 

@@ -453,7 +453,7 @@ I recommend skipping [Y] stages:
 
 ## Step 10: Handle User Response
 
-- **If approved**: Proceed to next stage in execution plan
+- **If approved**: Proceed to next stage in execution plan. Update Workflow Planning status from IN PROGRESS to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`.
 - **If changes requested**: Update execution plan and re-confirm
 - **If user wants to force include/exclude stages**: Update plan accordingly
 

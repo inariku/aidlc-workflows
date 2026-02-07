@@ -98,6 +98,7 @@ If the analysis in step 7 reveals ANY ambiguous answers, you MUST:
 
 ## Step 11: Update Progress
 - Mark Units Planning complete in aidlc-state.md
+- Update Units Planning status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
 - Update the "Current Status" section
 - Prepare for transition to Units Generation
 
@@ -156,6 +157,7 @@ If the analysis in step 7 reveals ANY ambiguous answers, you MUST:
 
 ## Step 19: Update Progress
 - Mark Units Generation stage complete in `aidlc-docs/aidlc-state.md`
+- Update Units Generation status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
 - Update the "Current Status" section
 - Prepare for transition to CONSTRUCTION PHASE
 
