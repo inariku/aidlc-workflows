@@ -167,7 +167,7 @@ This stage generates code for each unit of work through two integrated parts:
 - Log approval in audit.md with timestamp
 - Record the user's approval response with timestamp
 - Mark Code Generation stage as complete for this unit in aidlc-state.md
-- Update Code Generation status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
+- Update Code Generation status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)
 
 ---
 

@@ -300,7 +300,7 @@ Create `aidlc-docs/construction/build-and-test/build-and-test-summary.md`:
 
 Update `aidlc-docs/aidlc-state.md`:
 - Mark Build and Test stage as complete
-- Update Build and Test status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
+- Update Build and Test status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)
 - Update current status
 
 ---

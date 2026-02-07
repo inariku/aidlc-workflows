@@ -188,4 +188,4 @@ Update `aidlc-docs/aidlc-state.md`:
    - Wait for explicit user approval before proceeding
    - Record approval response with timestamp
    - Update Requirements Analysis stage complete in aidlc-state.md
-   - Update Requirements Analysis status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
+   - Update Requirements Analysis status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)

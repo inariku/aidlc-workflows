@@ -143,6 +143,6 @@ If the analysis in step 8 reveals ANY ambiguous answers, you MUST:
 
 ### 15. Update Progress
 - Mark Application Design stage complete in `aidlc-docs/aidlc-state.md`
-- Update Application Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md`
+- Update Application Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)
 - Update the "Current Status" section
 - Prepare for transition to next stage
