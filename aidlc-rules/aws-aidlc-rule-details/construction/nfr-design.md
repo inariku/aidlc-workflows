@@ -93,4 +93,4 @@ Incorporate NFR requirements into unit design using patterns and logical compone
 - Log approval in audit.md with timestamp
 - Record the user's approval response with timestamp
 - Mark NFR Design stage complete in aidlc-state.md
-- Update NFR Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)
+- Update NFR Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (Mermaid flowchart, text alternative, and checklist)

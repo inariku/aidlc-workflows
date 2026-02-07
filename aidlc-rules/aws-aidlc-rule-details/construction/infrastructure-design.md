@@ -97,4 +97,4 @@ Map logical software components to actual infrastructure choices for deployment 
 - Log approval in audit.md with timestamp
 - Record the user's approval response with timestamp
 - Mark Infrastructure Design stage complete in aidlc-state.md
-- Update Infrastructure Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)
+- Update Infrastructure Design status to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (Mermaid flowchart, text alternative, and checklist)

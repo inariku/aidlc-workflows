@@ -289,7 +289,7 @@ flowchart TD
     %% Apply styling based on status
 ```
 
-**Note**: Replace STATUS placeholders with actual phase status (COMPLETED/SKIP/EXECUTE) and apply appropriate styling. When updating a stage status to COMPLETED, update it in **both** the Mermaid flowchart and the checklist below.
+**Note**: Replace STATUS placeholders with actual phase status (COMPLETED/SKIP/EXECUTE) and apply appropriate styling. When updating a stage status to COMPLETED, update it in the Mermaid flowchart, text alternative, and checklist.
 
 ## Phases to Execute
 
@@ -454,7 +454,7 @@ I recommend skipping [Y] stages:
 ## Step 10: Handle User Response
 
 - **If approved**:
-  1. Update Workflow Planning status from IN PROGRESS to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (both Mermaid flowchart and checklist)
+  1. Update Workflow Planning status from IN PROGRESS to COMPLETED in `aidlc-docs/inception/plans/execution-plan.md` (Mermaid flowchart, text alternative, and checklist)
   2. Proceed to next stage in execution plan
 - **If changes requested**: Update execution plan and re-confirm
 - **If user wants to force include/exclude stages**: Update plan accordingly
