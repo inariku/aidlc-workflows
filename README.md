@@ -27,6 +27,15 @@ cp -R aidlc-rules/aws-aidlc-rules .kiro/steering/
 cp -R aidlc-rules/aws-aidlc-rule-details .kiro/
 ```
 
+On Windows (CMD):
+```cmd
+mkdir .kiro\steering
+xcopy aidlc-rules\aws-aidlc-rules .kiro\steering\aws-aidlc-rules\ /E /I
+xcopy aidlc-rules\aws-aidlc-rule-details .kiro\aws-aidlc-rule-details\ /E /I
+```
+
+> **Note**: If you downloaded a ZIP from the [Releases page](../../releases/latest), the extracted folder may contain a top-level directory (e.g., `aidlc-workflows-0.1.0/`). Navigate into it first so that `aidlc-rules/` is directly accessible.
+
 Your project should look like:
 ```
 <project-root>/
@@ -67,6 +76,15 @@ mkdir -p .amazonq/rules
 cp -R aidlc-rules/aws-aidlc-rules .amazonq/rules/
 cp -R aidlc-rules/aws-aidlc-rule-details .amazonq/
 ```
+
+On Windows (CMD):
+```cmd
+mkdir .amazonq\rules
+xcopy aidlc-rules\aws-aidlc-rules .amazonq\rules\aws-aidlc-rules\ /E /I
+xcopy aidlc-rules\aws-aidlc-rule-details .amazonq\aws-aidlc-rule-details\ /E /I
+```
+
+> **Note**: If you downloaded a ZIP from the [Releases page](../../releases/latest), the extracted folder may contain a top-level directory (e.g., `aidlc-workflows-0.1.0/`). Navigate into it first so that `aidlc-rules/` is directly accessible.
 
 Your project should look like:
 ```
