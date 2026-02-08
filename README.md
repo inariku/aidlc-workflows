@@ -4,11 +4,13 @@ AI-DLC is an intelligent software development workflow that adapts to your needs
 
 ## Quick Start
 
-1. Download the latest release zip from the [Releases page](../../releases/latest).
+1. Download the latest release zip from the [Releases page](../../releases/latest) to a folder **outside** your project directory (e.g., `~/Downloads`).
 2. Extract the zip. It contains an `aidlc-rules/` folder with two subdirectories:
    - `aws-aidlc-rules/` — the core AI-DLC workflow rules
    - `aws-aidlc-rule-details/` — supporting documents referenced by the rules
 3. Copy both folders into your project, following the setup for your platform below.
+
+> **Note**: The extracted folder may contain a top-level directory (e.g., `aidlc-workflows-0.1.0/`). Navigate into it first so that `aidlc-rules/` is directly accessible.
 
 
 
@@ -23,18 +25,16 @@ AI-DLC uses [Kiro Steering Files](https://kiro.dev/docs/cli/steering/) within yo
 On macOS/Linux:
 ```bash
 mkdir -p .kiro/steering
-cp -R aidlc-rules/aws-aidlc-rules .kiro/steering/
-cp -R aidlc-rules/aws-aidlc-rule-details .kiro/
+cp -R ~/Downloads/aidlc-rules/aws-aidlc-rules .kiro/steering/
+cp -R ~/Downloads/aidlc-rules/aws-aidlc-rule-details .kiro/
 ```
 
 On Windows (CMD):
 ```cmd
 mkdir .kiro\steering
-xcopy aidlc-rules\aws-aidlc-rules .kiro\steering\aws-aidlc-rules\ /E /I
-xcopy aidlc-rules\aws-aidlc-rule-details .kiro\aws-aidlc-rule-details\ /E /I
+xcopy %USERPROFILE%\Downloads\aidlc-rules\aws-aidlc-rules .kiro\steering\aws-aidlc-rules\ /E /I
+xcopy %USERPROFILE%\Downloads\aidlc-rules\aws-aidlc-rule-details .kiro\aws-aidlc-rule-details\ /E /I
 ```
-
-> **Note**: If you downloaded a ZIP from the [Releases page](../../releases/latest), the extracted folder may contain a top-level directory (e.g., `aidlc-workflows-0.1.0/`). Navigate into it first so that `aidlc-rules/` is directly accessible.
 
 Your project should look like:
 ```
@@ -73,18 +73,16 @@ AI-DLC uses [Amazon Q Rules](https://docs.aws.amazon.com/amazonq/latest/qdevelop
 On macOS/Linux:
 ```bash
 mkdir -p .amazonq/rules
-cp -R aidlc-rules/aws-aidlc-rules .amazonq/rules/
-cp -R aidlc-rules/aws-aidlc-rule-details .amazonq/
+cp -R ~/Downloads/aidlc-rules/aws-aidlc-rules .amazonq/rules/
+cp -R ~/Downloads/aidlc-rules/aws-aidlc-rule-details .amazonq/
 ```
 
 On Windows (CMD):
 ```cmd
 mkdir .amazonq\rules
-xcopy aidlc-rules\aws-aidlc-rules .amazonq\rules\aws-aidlc-rules\ /E /I
-xcopy aidlc-rules\aws-aidlc-rule-details .amazonq\aws-aidlc-rule-details\ /E /I
+xcopy %USERPROFILE%\Downloads\aidlc-rules\aws-aidlc-rules .amazonq\rules\aws-aidlc-rules\ /E /I
+xcopy %USERPROFILE%\Downloads\aidlc-rules\aws-aidlc-rule-details .amazonq\aws-aidlc-rule-details\ /E /I
 ```
-
-> **Note**: If you downloaded a ZIP from the [Releases page](../../releases/latest), the extracted folder may contain a top-level directory (e.g., `aidlc-workflows-0.1.0/`). Navigate into it first so that `aidlc-rules/` is directly accessible.
 
 Your project should look like:
 ```
