@@ -13,8 +13,8 @@
     "README.md"
   ],
   "scripts": {
-    "prepack": "cp -R ../aidlc-rules .",
-    "postpack": "rm -rf aidlc-rules"
+    "prepack": "node -e \"require('fs').cpSync('../aidlc-rules','aidlc-rules',{recursive:true})\"",
+    "postpack": "node -e \"require('fs').rmSync('aidlc-rules',{recursive:true,force:true})\""
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0"
