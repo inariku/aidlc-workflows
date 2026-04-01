@@ -26,6 +26,18 @@ AI-DLC is an intelligent software development workflow that adapts to your needs
 
 ## Quick Start
 
+### Option A: Interactive Installer (Recommended)
+
+If you have Node.js 18+ installed, run the following in your project directory:
+
+```bash
+npx @inariku/aidlc-install
+```
+
+This will auto-detect your coding agents and interactively install the rules to the correct paths. See [CLI Installer](cli/README.md) for details and CI usage.
+
+### Option B: Manual Setup
+
 1. Download the latest release zip from the [Releases page](../../releases/latest) to a folder **outside** your project directory (e.g., `~/Downloads`).
 2. Extract the zip. It contains an `aidlc-rules/` folder with two subdirectories:
    - `aws-aidlc-rules/` — the core AI-DLC workflow rules
