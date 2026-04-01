@@ -4,7 +4,7 @@
   "description": "Interactive installer for AI-DLC rules across coding agents",
   "license": "MIT-0",
   "bin": {
-    "aidlc-install": "./src/index.mjs"
+    "aidlc-install": "src/index.mjs"
   },
   "type": "module",
   "files": [
