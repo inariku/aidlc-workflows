@@ -1,0 +1,24 @@
+{
+  "name": "@inariku/aidlc-install",
+  "version": "0.1.0",
+  "description": "Interactive installer for AI-DLC rules across coding agents",
+  "license": "MIT-0",
+  "bin": {
+    "aidlc-install": "./src/index.mjs"
+  },
+  "type": "module",
+  "files": [
+    "src/",
+    "aidlc-rules/"
+  ],
+  "scripts": {
+    "prepack": "cp -R ../aidlc-rules .",
+    "postpack": "rm -rf aidlc-rules"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
