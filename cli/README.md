@@ -5,7 +5,7 @@ Interactive CLI installer for [AI-DLC](https://github.com/awslabs/aidlc-workflow
 ## Usage
 
 ```bash
-npx @inariku/aidlc-install
+npx aidlc-install
 ```
 
 Interactively select which agents to install AI-DLC rules for:
@@ -45,15 +45,15 @@ Interactively select which agents to install AI-DLC rules for:
 ## Commands
 
 ```bash
-npx @inariku/aidlc-install              # Install rules (interactive)
-npx @inariku/aidlc-install remove       # Uninstall rules
-npx @inariku/aidlc-install list         # Show installed rules
+npx aidlc-install              # Install rules (interactive)
+npx aidlc-install remove       # Uninstall rules
+npx aidlc-install list         # Show installed rules
 ```
 
 ## CI / Non-Interactive
 
 ```bash
-npx @inariku/aidlc-install --agent kiro --agent claude --copy -y
+npx aidlc-install --agent kiro --agent claude --copy -y
 ```
 
 | Flag | Description |

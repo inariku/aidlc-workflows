@@ -31,7 +31,7 @@ AI-DLC is an intelligent software development workflow that adapts to your needs
 If you have Node.js 18+ installed, run the following in your project directory:
 
 ```bash
-npx @inariku/aidlc-install
+npx aidlc-install
 ```
 
 This will auto-detect your coding agents and interactively install the rules to the correct paths. See [CLI Installer](cli/README.md) for details and CI usage.
